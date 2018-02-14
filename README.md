@@ -11,5 +11,5 @@ https://www.kaggle.com/c/prudential-life-insurance-assessment
 **Proposed Solution:** Combination of Neural Network and Ensemble Modelling 
 *	Input Layer: Binned input variables.  
 *	Hidden Layer 1: 6 Decision Tree Classifiers, 6 Random Forest Classifiers, and 6 XG Boost Classifiers. 
-*	Hidden Layer 2: KNN model is used the combine the outputs of the Decision Trees, another KNN model is used to combine the outputs of the Random Forest, and one more KNN model is used to combine the outputs of the XG Boost.
-*	Output Layer: XGB model is used the combine the outputs of the above XGB models.
+*	Hidden Layer 2: KNN model is used to combine the outputs of the Decision Trees, another KNN model is used to combine the outputs of the Random Forest, and one more KNN model is used to combine the outputs of the XG Boost.
+*	Output Layer: XGB model is used to combine the outputs of the above XGB models.
